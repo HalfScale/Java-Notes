@@ -1,2 +1,2 @@
-# Java-Notes
+# Java Notes
 notes for the various concepts of java
