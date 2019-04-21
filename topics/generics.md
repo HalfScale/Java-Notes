@@ -27,3 +27,4 @@ The example above now use generics. It produces error at compile time since the 
 **Diagram**
 
 ![](../img/java/woutgeneric.PNG)
+![](../img/java/withgeneric.PNG)
