@@ -1,4 +1,4 @@
 # Programming
 
 ### Java
-- [Generics](topics/generics.md)
+- [Generics](./topics/generics.md)
