@@ -1,2 +1,4 @@
-# Java Notes 
-notes for the various concepts of java
+# Programming
+
+### Java
+- [Generics](notes/topics/generics.md)
