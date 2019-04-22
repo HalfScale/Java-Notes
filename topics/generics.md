@@ -29,7 +29,7 @@ The example above now use generics. It produces error at compile time since the 
 ![](../img/java/woutgeneric.PNG)
 ![](../img/java/withgeneric.PNG)
 
-*The picture above is from Head First Java*
+*The picture above is from Head First Java book*
 
 ### Generic Class
 
@@ -78,7 +78,7 @@ public boolean <T extends Number> doSomething (T t) {
 }
 ```
 - In the example above it's called *bounded type* generics. The types is being bounded(After the **extends** keyword) on a specific type. Making it more strict on the types that it accepts.
-- The extends keyword in the generic context means **extends or implements a class**. In the example above the type only accepts a type that is a **Number** or it's subclasses.
+- The extends keyword in the generic context means **extends or implements a class**. In the example above the type only accepts of type **Number** or it's subclasses.
 
 ```java
 public class ClassName <T extends Integer> {
@@ -115,3 +115,57 @@ class ClassName <T extends Fire & Wind & Water> { ... } // OK
 //If not
 class ClassName <T extends Wind & Fire & Water> { ... } // compile time error!
 ```
+### Generic Inheritance and Subtypes
+
+```java
+// Typical "is-a" relationship
+public void someMethod(Number n) { ... }
+someMethod(new Integer(10)); //OK
+someMethod(new Double(10.1)) //OK
+
+// "is-a" relationship in generics
+public void boxTest(Box<Number> n) { ... }
+
+Box<Integer> boxInt = new Box<>();
+Box<Double> boxDouble = new Box<>();
+Box<Number> boxNum = new Box<>();
+
+boxTest(boxInt); // Error
+boxTest(boxDouble); // Error
+boxTest(boxNum); // OK
+```
+- Given the example above, you can't pass in ```Box<Integer>``` & ```Box<Double>```. They are not subtypes of ```Box<Number>```
+
+### Type Inference
+
+```java
+//Generic Methods
+BoxDemo.<Integer>addBox(Integer.valueOf(10), listOfIntegers);
+BoxDemo.addBox(Integer.valueOf(20), listOfIntegers); //without the diamond operator is the same.
+
+//Instantiation of Generic Classes
+Map<String, Integer> myMap = new HashMap<String, Integer>();
+Map<String, Integer> myMap = new HashMap<>(); //without diamond operator is the same.
+
+```
+- It enables you to invoke a **generic method** as you would an ordinary method, without specifying a type between the angle brackets. Java compiler automatically infers (from the method's arguement) that the type parameter is Integer.
+- To take take advantage of type inference in **instantiating a class** you must use the diamond ```<>``` operator.
+
+### Wildcards 
+
+```java
+//Unbounded wildcard
+public static void process (List<?> list) { ... }
+
+//Upper bounded wildcard
+public static void process (List<? extends Number> list) { ... }
+
+//Lower bounded wildcard
+public static void process (List<? super Integer> list) { ... }
+```
+- In generic code, the question mark ```?```, called the wildcard, represents an unknown type.
+- Unbounded wildcard accepts List of type ? (Unknown or any type).
+- You can use upper **bounded wildcard** to relax the restriction on a variable.
+- **Upper bounded wildcard** accepts the type on what it is bounded to and it's sublclass (ex. Number and it's subclass)
+- **Lower bounded wildcard** accepts the type on what it is bounded to and it's superclass (ex. Integer and it's upperclass)
+
