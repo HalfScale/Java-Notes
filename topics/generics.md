@@ -135,6 +135,17 @@ boxTest(boxDouble); // Error
 boxTest(boxNum); // OK
 ```
 - Given the example above, you can't pass in ```Box<Integer>``` & ```Box<Double>```. They are not subtypes of ```Box<Number>```
+### Diamond Operator
+- The diamond operator(diamond syntax) ```<>``` was introduced in Java 7. The purpose of it is to simplify the use of generics when creating an object.
+
+```java
+//without diamond operator
+List<Map<String, List<String>>> stringList = new ArrayList<Map<String, List<String>>>();
+
+//with diamond operator
+List<Map<String, List<String>>> stringList = new ArrayList<>();
+``` 
+- The difference is big when using a diamond operator, making it much simpler and shorter. It also adds type inference and reduces verbosity.
 
 ### Type Inference
 
