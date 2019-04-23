@@ -145,7 +145,7 @@ List<Map<String, List<String>>> stringList = new ArrayList<Map<String, List<Stri
 //with diamond operator
 List<Map<String, List<String>>> stringList = new ArrayList<>();
 ``` 
-- The difference is big when using a diamond operator, making it much simpler and shorter. It also adds type inference and reduces verbosity.
+- The difference is when using a diamond operator, making it much simpler and shorter. It also adds type inference and reduces verbosity.
 
 ### Type Inference
 
