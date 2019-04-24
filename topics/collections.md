@@ -21,6 +21,7 @@ but you cannot have duplicate keys. Although keys are typically String names(so 
 a key can be any object.
 
 ## Classes
+*note this are some of the common collection classes(there are many more...)*
 
 #### TreeSet
 - Keeps the element sorted and prevents duplicate.
