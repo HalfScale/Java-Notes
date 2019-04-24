@@ -34,3 +34,8 @@ a key can be any object.
 #### LinkedHashMap
 - Like a regular HashMap, except in can remember the order in which elements (name/value pair) were inserted, 
 or it can be configured to remember the order in which elements were last accessed.
+
+## Collection Diagram
+
+![](../img/java/collectionapi1.PNG)
+![](../img/java/collectionapi2.PNG)
