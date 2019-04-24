@@ -45,3 +45,7 @@ or it can be configured to remember the order in which elements were last access
 ![](../img/java/collectionapi2.PNG)
 
 *Image is from Head First Java book(page 558)*
+
+![](../img/java/collectionapi3.PNG)
+
+*Image is from Oracle java tutorial*
