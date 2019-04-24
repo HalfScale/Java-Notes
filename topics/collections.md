@@ -1,6 +1,9 @@
 # Collections
 
 ## Interface
+- A *Collection* sometimes called container - is simply an object that groups multiple element into a single unit.
+- Collections are used to store, retrieve, manipulate and communicate aggregate data.
+- They represent items that form a natural group such as poker hand(collection of cards), A mail folder(collection of letters) and etc.
 
 #### List (When sequence matters)
 - Collections that know about the index position.
