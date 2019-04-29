@@ -10,7 +10,9 @@
 - If you want to treat objects as equal (for example you decided that Song objects can only be equal if they have a matching title variable) you must override both **equal()** and **hashCode()** methods inherited from class Object.
 
 ![](../img/java/objectEquality1.PNG)
+
 *This image is from Head First Java Book*
+
 - The image above demonstrates why we should override both **equal()** and **hashCode()** method.
 
 #### Examples
