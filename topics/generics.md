@@ -179,5 +179,26 @@ public static void process (List<? super Integer> list) { ... }
 - You can use upper **bounded wildcard** to relax the restriction on a variable.
 - **Upper bounded wildcard** accepts the type on what it is bounded to and it's sublclass (ex. Number and it's subclass)
 - **Lower bounded wildcard** accepts the type on what it is bounded to and it's superclass (ex. Integer and it's upperclass)
-- When you use a wildcard the compiler stops you from adding references into a collection (List, Set and etc).
+- When you use a wildcard the compiler stops you from adding references/objects into a collection (List, Set and etc).
+
+```java
+// This syntax
+
+public void doSomething(List<? extends Number> list) {
+  // execute something here...
+}
+
+// Is same with
+
+//public <T extends Number> void doSomething(List<T> list) {
+  / execute something here...
+}
+```
+*If they have the same purpose, then what is the advantage of one of the other?*
+
+```java
+// public <T extends Number> doSomething(List<T> ne
+
+}
+```
 
