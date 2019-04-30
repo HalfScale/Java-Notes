@@ -179,4 +179,5 @@ public static void process (List<? super Integer> list) { ... }
 - You can use upper **bounded wildcard** to relax the restriction on a variable.
 - **Upper bounded wildcard** accepts the type on what it is bounded to and it's sublclass (ex. Number and it's subclass)
 - **Lower bounded wildcard** accepts the type on what it is bounded to and it's superclass (ex. Integer and it's upperclass)
+- When you use a wildcard the compiler stops you from adding references into a collection (List, Set and etc).
 
