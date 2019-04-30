@@ -190,15 +190,20 @@ public void doSomething(List<? extends Number> list) {
 
 // Is same with
 
-//public <T extends Number> void doSomething(List<T> list) {
-  / execute something here...
+public <T extends Number> void doSomething(List<T> list) {
+  // execute something here...
 }
 ```
 *If they have the same purpose, then what is the advantage of one of the other?*
 
 ```java
-// public <T extends Number> doSomething(List<T> ne
+// This is more efficient
+public <T extends Number> void doSomething(List<T> one, List<T> two){
+  // execute something here...
+}
 
+public void doSomething(List<? extends Number> one, List<? extends Number> two) {
+  // execute something here...
 }
 ```
-
+- If this is the case then, declaring a parameter type once is more efficient
