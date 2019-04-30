@@ -194,7 +194,7 @@ public <T extends Number> void doSomething(List<T> list) {
   // execute something here...
 }
 ```
-*If they have the same purpose, then what is the advantage of one of the other?*
+*They have the same purpose but with different syntax. Then what is the advantage of one over the other?*
 
 ```java
 // This is more efficient
