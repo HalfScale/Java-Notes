@@ -49,14 +49,14 @@ public class Dog {
 ```
 - Instance variables are declared inside a class.
 - They are the things that the object knows(State).
-- Instance variables will always get a default value even without assigning a value explicitly. Integers(0), floating points(0.0), booleans(false), references(null).
+- Instance variables will always get a default value even without assigning a value explicitly. **Integers**(0), **floating points**(0.0), **booleans**(false), **references**(null).
 
 ### Local variable
 
 ```java
 public class Dog {
   
-  public void bark(int counter) { // the 
+  public void bark(int counter) { // parameters are also considered local variables
     int limit = 5; // local variable
     // do something...
   }
