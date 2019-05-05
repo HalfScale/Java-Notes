@@ -19,6 +19,7 @@ boolean isFound = false;
 Dog dog = new Dog();
 Cat cat = new Cat();
 
+//using methods
 dog.bark();
 cat.meow();
 ```
@@ -26,3 +27,9 @@ cat.meow();
 Except, In Java we don't really know what is inside a reference variable. We do know whatever it is, it represents 
 one and only one object. And the JVM knows how to use the reference to get to the object.
 
+### Diagram
+
+![](../img/java/primitiveReference.PNG)
+- With primitive variables, the value of the variable is... the value (5, -26.7, 'a')
+- With reference variables, the value of the variables is... bits representing a way to get to a specific object. The bits 
+is only used for accessing an object.
