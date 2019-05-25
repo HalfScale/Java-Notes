@@ -27,5 +27,7 @@ public class Dog implements Pet {
 benefits. (You can't extend multiple classes but you can implement multiple interfaces)
 - Interface is like a 100% abstract class. You can only define abstract methods.
 - Classes from different inheritance tree can implement the same interface.
+
+![](../img/java/interfacemultiple.PNG)
 - User interface when you want to declare a role that other classes can play regardless 
 of where those classes are in the inheritance tree.
