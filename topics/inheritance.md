@@ -40,3 +40,9 @@ public class Wolf extends Canine{
 
 ### HAS-A Test
 - HAS-A Test only works if the two classes are related, but not through inheritance. (Ex. **Bathroom** HAS-A **Tub** true, **Bathroom** IS-A **Tub**, wont make sense vice-versa. Bathroom class would have an instance variable of Tub).
+
+## Deadly Diamond of Death (DDD)
+![](../img/java/ddd.PNG)
+- Java doesn't allow multiple inheritance on different superclasses.
+
+
