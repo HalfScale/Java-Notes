@@ -43,6 +43,7 @@ public class Wolf extends Canine{
 
 ## Deadly Diamond of Death (DDD)
 ![](../img/java/ddd.PNG)
+*image is from Head First Java Book*
 - Java doesn't allow multiple inheritance on different superclasses.
 
 
