@@ -16,6 +16,7 @@
 - [Overriding](./topics/overriding.md)
 - [Overloading](./topics/overloading.md)
 - [Abstract classes and methods](./topics/abstract.md)
+- [Interface](./topics/interface.md)
 
 #### Misc
 - [Generics](./topics/generics.md)
