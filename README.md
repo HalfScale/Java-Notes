@@ -21,3 +21,4 @@
 #### Misc
 - [Generics](./topics/generics.md)
 - [Collections](./topics/collections.md)
+- [Heap and Stack](./topics/heapandstack.md)
