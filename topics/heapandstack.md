@@ -12,8 +12,6 @@
 ### Stack
 ![](../img/java/stack.PNG)
 
-*Image from Head First Java*
-
 - Where method invocations and local variables live
 
 ![](../img/java/stackWMethods.PNG)
