@@ -39,7 +39,7 @@ public class Duck{
     size = duckSize;
   }
   
-  public Duck(duckSize, duckName, duckHeight) {
+  public Duck(int duckSize, String duckName, int duckHeight) {
     size = duckSize;
     name = duckName;
     height = duckHeight;
