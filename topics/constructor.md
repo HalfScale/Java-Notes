@@ -24,15 +24,25 @@ can run code its code before it can be used.
 ```java
 public class Duck{
   int size;
+  String name;
+  int height;
   
   //constructor with no args.
   public Duck() {
     size = 27;
+    name = "Duck"
+    height = 4
   }
   
   //constructor with args.
   public Duck(int duckSize) {
     size = duckSize;
+  }
+  
+  public Duck(duckSize, duckName, duckHeight) {
+    size = duckSize;
+    name = duckName;
+    height = duckHeight;
   }
 }
 ```
