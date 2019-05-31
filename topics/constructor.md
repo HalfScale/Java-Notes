@@ -48,3 +48,57 @@ public class Duck{
 ```
 - The compiler only writes a constructor for you if you didn't write any constructor at all. So you need to implement a no args
 constructor yourself if you write one or more constructors.
+
+### How constructors work
+
+```java
+public class Animal {
+
+  public Animal() {
+    System.out.println("Creating an animal object"):
+  }
+}
+
+public class Hippo {
+
+  public Hippo() {
+    System.out.println("Creating an hippo object"):
+  }
+}
+
+public static void main(String[] args) {
+  System.out.println("Starting creation..."):
+  Hippo hippo = new Hippo();
+}
+```
+
+```java
+output:
+Starting creation...
+Creating an animal object
+Creating an hippo object
+```
+- During the creation of an object it calls it's superclass constructor and up to the Object class. The process is called constructor chaining.
+
+```java
+public class Hippo{
+  
+  public Hippo() {
+    super();
+    System.out.println("Creating an hippo object"):
+  }
+}
+
+
+public class Hippo{
+  
+  public Hippo() {
+    System.out.println("Creating an hippo object"):
+    super(); //Bad thing to do (this won't compile)
+  }
+}
+```
+- To call a superclass constructor you will use the ```super()``` keyword.
+- Even if you dont write the ```super()``` keyword, the constructor will automatically write it for you.
+- You cannot put the ```super()``` keyword underneath of any statement.
+- You can also pass some arguments to the ```super()``` if the superclass requires it.
