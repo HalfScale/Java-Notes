@@ -102,3 +102,33 @@ public class Hippo{
 - Even if you dont write the ```super()``` keyword, the constructor will automatically write it for you.
 - You cannot put the ```super()``` keyword underneath of any statement.
 - You can also pass some arguments to the ```super()``` if the superclass requires it.
+
+### Calling a constructor from another constructor
+```java
+
+public class Human{
+  int language;
+  String name;
+  
+  public Human() {
+    this("Anon");
+  }
+  
+  public Human(int language) {
+    this.language = language;
+  }
+  
+  public Human(String name) {
+    super(name);
+  }
+  
+  //This type of constructor won't work
+  public Human(String name, int language) {
+    this(language);
+    super(name);
+  }
+}
+```
+- Using ```this()``` to call a constructor from another constructor in the same class. It can only be used in a constructor and must be
+the first statement in a constructor.
+- A constructor can have ```this()``` or ```super()``` but never both!
