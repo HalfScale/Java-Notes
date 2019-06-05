@@ -18,6 +18,7 @@
 - [Abstract classes and methods](./topics/abstract.md)
 - [Interface](./topics/interface.md)
 - [Constructor](./topics/constructor.md)
+- [Static methods](./topics/staticMethods.md)
 
 #### Misc
 - [Generics](./topics/generics.md)
