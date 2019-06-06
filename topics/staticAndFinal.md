@@ -56,7 +56,7 @@ public class Duck {
 on the class variable rather than per instance of a ```Duck``` that is created.
 
 ### Final keyword
-- The ```final``` keyword is commonly used for declaring a variable that shouldn't be chaned or that is constant.
+- The ```final``` keyword is commonly used for declaring a variable that shouldn't be changed or that is constant.
 
 ### Static initializer block and Final keyword
 
@@ -76,3 +76,17 @@ public class Duck{
 ```
 - When you have a variable that is ```static``` and ```final``` it is required to be initialized at ther very start. and it has two ways
 of doing it. One is that assign a value to variable that is declared or assign a value to a variable inside a static initializer.
+
+```java
+//A final class
+public final class Duck {
+
+}
+
+//A final method
+public final void doSomething() {
+
+}
+```
+- A final class means you can't extend the class.
+- A final method means you can't overide the method.
