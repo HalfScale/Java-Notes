@@ -18,10 +18,10 @@
 - [Abstract classes and methods](./topics/abstract.md)
 - [Interface](./topics/interface.md)
 - [Constructor](./topics/constructor.md)
-- [Static methods](./topics/staticMethods.md)
 
 #### Misc
 - [Generics](./topics/generics.md)
 - [Collections](./topics/collections.md)
 - [Heap and Stack](./topics/heapandstack.md)
 - [Object lifespan and Java Garbage Collection](./topics/objectsAndGC)
+- [Statics and Final](./topics/staticAndFinal.md)
