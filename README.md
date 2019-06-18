@@ -25,3 +25,4 @@
 - [Heap and Stack](./topics/heapandstack.md)
 - [Object lifespan and Java Garbage Collection](./topics/objectsAndGC)
 - [Statics and Final](./topics/staticAndFinal.md)
+- [Annotations](./topics/annotation.md)
