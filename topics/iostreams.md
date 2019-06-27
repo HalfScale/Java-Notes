@@ -34,3 +34,34 @@ public static void main (String[] args) {
 }
 ```
 - This kind of stream is only used for low level files or sources.(byte streams should only be used for the most primitive I/O).
+
+### Character and Buffered Streams
+
+```java
+public static void main(String[] args) throws IOException{
+		BufferedReader in = null;
+		BufferedWriter out = null;
+		
+		try {
+			  in = new BufferedReader(new FileReader("E:\\test files io\\xandu.txt"));
+			  out = new BufferedWriter(new FileWriter("E:\\test files io\\new_xandu_plus.txt"));
+			
+			  String l;
+			
+        while((l = in.readLine()) != null) {
+          out.write(l);
+        }
+			
+		} finally {
+			if(in != null) {
+				in.close();
+			}
+			if(out != null) {
+				out.close();
+			}
+		}
+		
+ }
+```
+- This kind of stream is much more efficient than ```Writer``` and ```Reader``` alone.
+- Since the data will be stored in the memory area called **buffer area**(fills it up with data) before it delivers to the destination.
