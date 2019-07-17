@@ -34,4 +34,4 @@
 - [Display level](./topics/html/displayLevel.md)
 
 ### CSS
-- [CSS Syntax and Selector](./topics/styleSelector.md)
+- [CSS Syntax and Selector](./topics/syntaxSelector.md)
