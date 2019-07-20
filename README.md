@@ -35,3 +35,4 @@
 
 ### CSS
 - [CSS Syntax and Selector](./topics/syntaxSelector.md)
+- [Inheritance and Cascade](./topics/inheritanceCascade.md)
