@@ -33,5 +33,5 @@
 ### CSS
 - [CSS Syntax and Selector](./topics/CSS/syntaxSelector.md)
 - [Inheritance and Cascade](./topics/CSS/inheritanceCascade.md)
-- [Display level](./topics/HTML/displayLevel.md)
-- [Box Model](./topics/CSSboxModel.md)
+- [Display level](./topics/CSS/displayLevel.md)
+- [Box Model](./topics/CSS/boxModel.md)
