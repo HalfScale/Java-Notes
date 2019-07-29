@@ -17,4 +17,4 @@
 
 ### Example
 
-![](../img/html/displayLevel.PNG)
+![](../img/css/displayLevel.PNG)
