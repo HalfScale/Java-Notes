@@ -4,36 +4,34 @@
 
 #### Basics
 
-- [How Java Works](./topics/howJavaWorks.md)
-- [Variables](./topics/variables.md)
-- [Primitives and It's Wrapper Classes](./topics/primitivesWrapper.md)
-- [Methods](./topics/methods.md)
-- [Object Equality](./topics/objectEquality.md)
+- [How Java Works](./topics/Java/howJavaWorks.md)
+- [Variables](./topics/Java/variables.md)
+- [Primitives and It's Wrapper Classes](./topics/Java/primitivesWrapper.md)
+- [Methods](./topics/Java/methods.md)
+- [Object Equality](./topics/Java/objectEquality.md)
 
 #### OOP
-- [Inheritance](./topics/inheritance.md)
-- [Polymorphism](./topics/polymorphism.md)
-- [Overriding](./topics/overriding.md)
-- [Overloading](./topics/overloading.md)
-- [Abstract classes and methods](./topics/abstract.md)
-- [Interface](./topics/interface.md)
-- [Constructor](./topics/constructor.md)
+- [Inheritance](./topics/Java/inheritance.md)
+- [Polymorphism](./topics/Java/polymorphism.md)
+- [Overriding](./topics/Java/overriding.md)
+- [Overloading](./topics/Java/overloading.md)
+- [Abstract classes and methods](./topics/Java/abstract.md)
+- [Interface](./topics/Java/interface.md)
+- [Constructor](./topics/Java/constructor.md)
 
 #### Misc
-- [Generics](./topics/generics.md)
-- [Collections](./topics/collections.md)
-- [Heap and Stack](./topics/heapandstack.md)
-- [Object lifespan and Java Garbage Collection](./topics/objectsAndGC)
-- [Statics and Final](./topics/staticAndFinal.md)
-- [Annotations](./topics/annotation.md)
-- [I/O Streams](./topics/iostreams.md)
+- [Generics](./topics/Java/generics.md)
+- [Collections](./topics/Java/collections.md)
+- [Heap and Stack](./topics/Java/heapandstack.md)
+- [Object lifespan and Java Garbage Collection](./topics/Java/objectsAndGC)
+- [Statics and Final](./topics/Java/staticAndFinal.md)
+- [Annotations](./topics/Java/annotation.md)
+- [I/O Streams](./topics/Java/iostreams.md)
 
 # Web Scripting
 
-### HTML
-- [Display level](./topics/html/displayLevel.md)
-
 ### CSS
-- [CSS Syntax and Selector](./topics/syntaxSelector.md)
-- [Inheritance and Cascade](./topics/inheritanceCascade.md)
-- [Box Model](./topics/boxModel.md)
+- [CSS Syntax and Selector](./topics/CSS/syntaxSelector.md)
+- [Inheritance and Cascade](./topics/CSS/inheritanceCascade.md)
+- [Display level](./topics/HTML/displayLevel.md)
+- [Box Model](./topics/CSSboxModel.md)
