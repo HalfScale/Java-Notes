@@ -30,10 +30,8 @@
 
 # Web Scripting
 
-### HTML
-- [Display level](./topics/HTML/displayLevel.md)
-
 ### CSS
 - [CSS Syntax and Selector](./topics/CSS/syntaxSelector.md)
 - [Inheritance and Cascade](./topics/CSS/inheritanceCascade.md)
+- [Display level](./topics/HTML/displayLevel.md)
 - [Box Model](./topics/CSSboxModel.md)
