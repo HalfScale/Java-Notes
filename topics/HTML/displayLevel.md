@@ -14,3 +14,7 @@
 - respect all of those
 - force a line break after the block element
 - acquires full-width if width not defined
+
+### Example
+
+![](../img/html/displayLevel.PNG)
