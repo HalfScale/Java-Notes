@@ -9,7 +9,7 @@ function myFunction(param) {
 
 ### Usage
 
-- A basic call to the function named 'myFunction'.
+- A basic call to the function named ```myFunction```.
 
 ```javascript
 
@@ -62,4 +62,6 @@ function modify(original, replacement, source) {
 var dogify = modify(/fox/ig, 'dog');
 
 console.log(dogify('The crazy fox jumped over the building!'));
+// Output
+// The crazy dog jumped over the building!
 ```
