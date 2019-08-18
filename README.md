@@ -35,3 +35,6 @@
 - [Inheritance and Cascade](./topics/CSS/inheritanceCascade.md)
 - [Display level (Types of CSS Boxes)](./topics/CSS/displayLevel.md)
 - [Box Model](./topics/CSS/boxModel.md)
+
+### JavaScript
+- [JavaScript functions](./topics/JavaScript/functions.md)
