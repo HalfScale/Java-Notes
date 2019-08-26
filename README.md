@@ -39,7 +39,7 @@
 ### JavaScript
 - [JavaScript functions](./topics/JavaScript/functions.md)
 
-# Source Control
+# Version Control
 
 ### Git
-
+- [Basics](./topics/git/basics.md)
