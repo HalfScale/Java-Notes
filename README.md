@@ -37,7 +37,8 @@
 - [Box Model](./topics/CSS/boxModel.md)
 
 ### JavaScript
-- [JavaScript functions](./topics/JavaScript/functions.md)
+- [Functions](./topics/JavaScript/functions.md)
+- [Call, Apply, Bind](./topics/JavaScript/functionFunctions.md)
 
 # Version Control
 

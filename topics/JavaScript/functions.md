@@ -1,4 +1,4 @@
-# JavaScript Functions
+# Functions
 
 ### Syntax
 ```javascript
