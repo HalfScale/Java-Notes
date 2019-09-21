@@ -41,6 +41,7 @@
 - [Call, Apply, Bind](./topics/JavaScript/functionFunctions.md)
 - [Keyword this](./topics/JavaScript/this.md)
 - [Closures](./topics/JavaScript/closures.md)
+- [Prototype](./topics/JavaScript/prototype.md)
 
 # Version Control
 
