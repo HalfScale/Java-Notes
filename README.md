@@ -39,6 +39,8 @@
 ### JavaScript
 - [Functions](./topics/JavaScript/functions.md)
 - [Call, Apply, Bind](./topics/JavaScript/functionFunctions.md)
+- [Keyword this](./topics/JavaScript/this.md)
+- [Closures](./topics/JavaScript/closures.md)
 
 # Version Control
 
