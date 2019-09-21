@@ -1,6 +1,8 @@
 # Prototype in JavaScript
 
 ![](../../img/js/prototype.PNG)
+
+Image from Udemy Course(Web Development) by Colt Steele*
 - Every constructor function has a property
 on it called 'prototype', which is an object.
 - The prototype object has a property on it called
@@ -72,6 +74,8 @@ Vehicle.prototype.honk = function() {
 
 ### Prototype Chain
 ![](../../img/js/prototypeChain.PNG)
+
+*Image from Udemy Course(Web Development) by Colt Steele*
 - JavaScript find methods and properties through the prototype
 chain of the objects.
 - If JavaScript can't find the method that you invoked, it goes
